@@ -1,0 +1,42 @@
+{
+    "BONUS_SYSTEM_OUTBOX_DEST_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_outbox/dml/dest.sql",
+    "BONUS_SYSTEM_OUTBOX_ORIG_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_outbox/dml/orig.sql",
+    "BONUS_SYSTEM_RANKS_DEST_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_ranks/dml/dest.sql",
+    "BONUS_SYSTEM_RANKS_ORIG_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_ranks/dml/orig.sql",
+    "BONUS_SYSTEM_USERS_DEST_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_users/dml/dest.sql",
+    "BONUS_SYSTEM_USERS_ORIG_QUERY": "/lessons/dags/realization/stg/bonus_system_load_dag/bonus_system_users/dml/orig.sql",
+
+    "DM_ORDERS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_orders.sql",
+    "DM_PRODUCTS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_products.sql",
+    "DM_RESTAURANTS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_restaurants.sql",
+    "DM_TIMESTAMPS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_timestamps.sql",
+    "DM_USERS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_users.sql",
+
+    "DM_SETTLEMENT_REPORT_QUERY": "/lessons/dags/realization/cdm/sql/dm_settlement_report.sql",
+
+    "FCT_PRODUCT_SALES_LOAD_QUERY": "/lessons/dags/realization/dds/sql/fct_product_sales.sql",
+
+    "INIT_DDL_FILES_PATH": "/lessons/dags/realization/schema_init_dag/ddl/init.sql",
+    "INIT_DELIVERY_DDL_FILES_PATH": "/lessons/dags/realization/schema_init_dag/ddl/init_delivery.sql",
+
+    "MONGO_DB_CERTIFICATE_PATH": "/opt/airflow/certificates/PracticumSp5MongoDb.crt",
+    "MONGO_DB_DATABASE_NAME": "db-mongo",
+    "MONGO_DB_HOST": "rc1a-ba83ae33hvt4pokq.mdb.yandexcloud.net:27018",
+    "MONGO_DB_PASSWORD": "student1",
+    "MONGO_DB_REPLICA_SET": "rs01",
+    "MONGO_DB_USER": "student",
+
+    "ORDER_SYSTEM_ORDERS_DEST_QUERY": "/lessons/dags/realization/stg/order_system_load_dag/order_system_orders/dml/dest.sql",
+    "ORDER_SYSTEM_RESTAURANT_DEST_QUERY": "/lessons/dags/realization/stg/order_system_load_dag/order_system_restaurants/dml/dest.sql",
+    "ORDER_SYSTEM_USERS_DEST_QUERY": "/lessons/dags/realization/stg/order_system_load_dag/order_system_users/dml/dest.sql",
+
+    "DELIVERY_SYSTEM_COURIER_DEST_QUERY": "/lessons/dags/realization/stg/delivery_system_load_dag/sql/delivery_system_courier.sql",
+    "DELIVERY_SYSTEM_DELIVERY_DEST_QUERY": "/lessons/dags/realization/stg/delivery_system_load_dag/sql/delivery_system_delivery.sql",
+
+    "DM_COURIERS_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_couriers.sql",
+    "DM_DELIVERIES_LOAD_QUERY": "/lessons/dags/realization/dds/sql/dm_deliveries.sql",
+
+    "FCT_ORDER_DELIVERY_LOAD_QUERY": "/lessons/dags/realization/dds/sql/fct_order_delivery.sql",
+
+    "DM_DELIVERY_REPORT_QUERY": "/lessons/dags/realization/cdm/sql/dm_courier_ledger.sql"
+}
