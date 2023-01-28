@@ -1,0 +1,24 @@
+version: '3.9'
+
+services:
+  de-pg-cr-af:
+    image: sindb/de-pg-cr-af:latest
+    container_name: de-project-airflow
+    ports:
+      - 3000:3000
+      - 3002:3002
+      - 15432:5432
+    volumes:
+      - s5-project-postgresql:/var/lib/postgresql
+      - ${AIRFLOW_DAGS_DIR:-./src/dags}:/lessons/dags
+      - ./src/plugins:/lessons/plugins
+    restart: unless-stopped
+
+  metabase:
+    image: metabase/metabase
+    ports:
+      - 3333:3000
+    restart: unless-stopped
+
+volumes:
+  s5-project-postgresql:
